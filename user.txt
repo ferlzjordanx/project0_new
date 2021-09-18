@@ -1,0 +1,4 @@
+0,User,User Type,0.0
+1,User,User Type,0.0
+2,Anna,Customer,2300.0
+3,Jose,Customer,60.0
