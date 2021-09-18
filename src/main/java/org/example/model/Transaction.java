@@ -4,6 +4,7 @@ public class Transaction {
     private double amount;
     private int userID;
     private Integer transactionID;
+    //Transaction date ?
 
     public double getAmount() {
         return amount;
