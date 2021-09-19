@@ -1,0 +1,40 @@
+Simulate some business 20%
+Documentation 10% - (javadocs)// is this created automatically?
+User Interaction 15%
+Unit Testing (10% coverage) 40%  // I need to get started, few tips, and I can complete rest
+Data Persistence 10%  // I need to create persistence to database AWS
+Logging 5% // Need explanation, only have an idea of what it does, but not how to implement it
+
+Project 0 is a simple banking simulation. 
+
+Simple Java console application with file system persistence
+
+
+User stories
+
+As a bank user I can
+    login to my account(s)
+    view my balance
+    deposit money
+    withdraw money
+    transfer money to other accounts
+    view my transaction history
+    apply for line(s) of credit
+
+As a bank employee I can
+    open/create accounts for bank users
+    manually review credit requests
+
+The system should simulate the credit approval process
+    Excellent credit -- automatic approval low interest
+    Good credit -- automatic approval low-high interest
+    Poor credit -- requires review high interest
+    Bad credit -- automatic denial
+
+The application will be created using
+    Your choice of IDE
+    Java 1.8
+    JUnit
+    log4j
+    PostgreSQL(persistence)
+

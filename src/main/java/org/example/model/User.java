@@ -4,7 +4,7 @@ public class User {
 
     private Integer userID;
     private String name;
-    private String profile;// customer or employee
+    private String profile;// "Customer" or "Employee"
     private double balance;
 
 
@@ -50,3 +50,4 @@ public class User {
                 '}';
     }
 }
+

@@ -29,4 +29,11 @@ public class Transaction {
     public void setTransactionID(Integer transactionID) {
         this.transactionID = transactionID;
     }
+
+    @Override
+    public String toString() {
+        return "UserID " + userID +
+                " ,  amount= " + amount +
+                " , transactionID=" + transactionID;
+    }
 }
