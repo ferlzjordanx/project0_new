@@ -1,0 +1,4 @@
+0,400.0,1,Approved
+1,200.0,0,Approved
+2,50.0,0,Canceled
+3,200.0,1,Approved

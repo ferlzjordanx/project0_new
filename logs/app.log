@@ -1,0 +1,2 @@
+2021-09-20 20:06:34,945 INFO o.e.s.TransactionService [main] Transfer successful
+2021-09-20 20:10:32,824 WARN o.e.s.TransactionService [main] Insufficient funds

@@ -26,15 +26,18 @@ As a bank employee I can
     manually review credit requests
 
 The system should simulate the credit approval process
-    Excellent credit -- automatic approval low interest
-    Good credit -- automatic approval low-high interest
-    Poor credit -- requires review high interest
-    Bad credit -- automatic denial
+    Excellent credit -- automatic approval low interest // 700-800 - 0.10 low rate
+    Good credit -- automatic approval low-high interest // 550-699 - 0.20 high rate
+    Poor credit -- requires review high interest // -> 450- 549 : goes to employee for review
+    Bad credit -- automatic denial // under 450 denied
 
 The application will be created using
     Your choice of IDE
     Java 1.8
     JUnit
     log4j
-    PostgreSQL(persistence)
+    PostgreSQL(persistence) - aws
+
+
+
 
